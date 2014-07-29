@@ -23,6 +23,10 @@ img {
 }
 
 
+h3 {
+	margin: 0 0 1em 0;
+}
+
 
 /****************
 Heading
@@ -101,6 +105,17 @@ footer{
 	margin: 0 5px;
 }
 
+/****************
+Page: About
+****************/
+
+.profile-photo {
+	/*display: block;      This property makes picture disappear dont know why yet, trying to center*/
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
 
 /****************
 Page: Portfolio
@@ -127,6 +142,7 @@ Page: Portfolio
 	font-size: 0.75em;
 	color: #bdc3c7;
 }
+
 /****************
 Color
 ****************/
